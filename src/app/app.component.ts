@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Pipes';
-
+  date = new Date();
 
   users = [{
     firstName: 'Venkat',
